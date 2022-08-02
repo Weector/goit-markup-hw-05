@@ -417,9 +417,10 @@ p {
 }
 
 .logo-clients {
-  display: flex;
+  display: inline-block;
   width: 170px;
   height: 92px;
+  padding: 16px 32px;
   color: var(--logo-color);
   border: 1px solid var(--logo-color);
   border-radius: 4px;
@@ -549,9 +550,8 @@ p {
 }
 
 /* Footer */
-.footer .cont {
+.footer .container {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .footer {
@@ -617,7 +617,10 @@ p {
 }
 
 .icon-join {
-  display: flex;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 12px;
   border-radius: 50%;
