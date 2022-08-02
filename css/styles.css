@@ -228,6 +228,7 @@ p {
   display: block;
   width: 30px;
   height: 30px;
+  padding: 0px;
   margin-left: auto;
   background-color: var(--white-color);
   border: solid rgba(0, 0, 0, 0.1);
@@ -238,6 +239,10 @@ p {
 .icon-close:hover,
 .icon-close:focus {
   fill: var(--accent-color);
+}
+
+.close-dagger {
+  vertical-align: middle;
 }
 
 /* Section */
