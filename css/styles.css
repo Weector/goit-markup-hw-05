@@ -225,11 +225,19 @@ p {
 }
 
 .icon-close {
-  display: flex;
+  display: block;
+  width: 30px;
+  height: 30px;
   margin-left: auto;
-  padding: 0;
-  border: none;
   background-color: var(--white-color);
+  border: solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-close:hover,
+.icon-close:focus {
+  fill: var(--accent-color);
 }
 
 /* Section */
