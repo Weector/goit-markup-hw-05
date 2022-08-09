@@ -383,8 +383,7 @@ p {
   color: var(--logo-color);
   border: 1px solid var(--logo-color);
   border-radius: 4px;
-  align-items: center;
-  justify-content: center;
+  outline: transparent;
   transition: color var(--time-function), border-color var(--time-function);
 }
 
