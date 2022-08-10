@@ -30,6 +30,7 @@ body {
 
 .list {
   list-style: none;
+  padding: 0px;
 }
 
 /* No gap */
@@ -192,6 +193,7 @@ p {
 /* Header-Button */
 
 .btn {
+  min-width: 216px;
   padding: 10px 32px;
   background-color: var(--accent-color);
   color: var(--white-color);
@@ -319,21 +321,6 @@ p {
   margin-right: 30px;
 }
 
-.employee-name {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-}
-
-.employee-position {
-  margin-top: 10px;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-}
-
 .employee-thumb {
   padding: 30px 0px;
   background-color: var(--white-color);
@@ -343,10 +330,34 @@ p {
   text-align: center;
 }
 
+.employee-name {
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.employee-position {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.sn-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .icon-sn {
-  display: inline-flex;
-  margin-top: 16px;
-  padding: 12px;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   outline: transparent;
   fill: var(--logo-color);
