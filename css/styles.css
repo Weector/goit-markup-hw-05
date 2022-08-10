@@ -352,7 +352,7 @@ p {
   gap: 10px;
 }
 
-.icon-sn {
+.sn-icon {
   display: flex;
   width: 44px;
   height: 44px;
@@ -365,12 +365,8 @@ p {
     border-radius var(--time-function);
 }
 
-.icon-sn:not(:last-child) {
-  margin-right: 10px;
-}
-
-.icon-sn:hover,
-.icon-sn:focus {
+.sn-icon:hover,
+.sn-icon:focus {
   fill: var(--white-color);
   background-color: var(--accent-color);
   border-radius: 50%;
